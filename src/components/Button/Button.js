@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Button = () => {
+const Button = ({label = 'Button'}) => {
 
   const DefaultButton = styled.button`
     min-width: 200px;
@@ -9,15 +9,18 @@ const Button = () => {
     border: solid #ccc;
     border-width: 1px 1px 5px 1px;
     text-align: center;
+    cursor: pointer;
+    position: relative;
     
     &:active {
-      border-width: 1px;
+      border-bottom: 1px solid #ccc;
+      top: 3px;
     }
   `
 
   return(
     <DefaultButton>
-      Hello
+      {label}
     </DefaultButton>
   )
 }
