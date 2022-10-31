@@ -1,5 +1,4 @@
-import React from "react";
-import Button from "./Button";
+import Button from './Button';
 
 export default {
   title: 'Converter/Button',
@@ -9,15 +8,15 @@ export default {
 
 const Template = (args) => <Button {...args} />;
 
-export const Default = Template.bind({})
-export const Primary = Template.bind({})
+export const Default = Template.bind({});
+export const Primary = Template.bind({});
 
 Default.args = {
   label: 'Convert',
-  variant: 'default'
+  variant: 'default',
 };
 
 Primary.args = {
   label: 'Convert',
-  variant: 'primary'
-}
+  variant: 'primary',
+};
