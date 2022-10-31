@@ -1,9 +1,4 @@
-import styled from 'styled-components';
-
-const StyledParagraph = styled.p`
-  font-family: 'Outfit', sans-serif;
-  color: #fff;
-`;
+import { StyledParagraph } from './Paragraph.styles';
 
 const Paragraph = ({ children }) => (
   <StyledParagraph>{children}</StyledParagraph>
