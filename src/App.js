@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Button, Heading } from './components';
+import { Button, Heading, Paragraph } from './components';
 
 function App() {
   return (
@@ -20,6 +20,10 @@ function App() {
         </a>
         <Button />
         <Heading />
+        <Paragraph>
+          Basic converter of binary numbers to decimal numbers, please introduce
+          only 0s and 1s and then hit the button
+        </Paragraph>
       </header>
     </div>
   );
