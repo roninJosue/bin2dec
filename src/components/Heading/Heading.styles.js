@@ -5,7 +5,9 @@ const HeadingBase = ({level, as: Component = `h${level}`, ...props}) => (<Compon
 const StyledHeading = styled(HeadingBase)(
   {
     margin: 0,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    fontFamily: "'Outfit', sans-serif",
+    color: '#fff'
   }
 )
 
