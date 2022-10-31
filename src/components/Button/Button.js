@@ -1,11 +1,7 @@
-import {StyledButton} from "./Button.styles";
+import { StyledButton } from './Button.styles';
 
-const Button = ({label = 'Button', variant='default'}) => {
-  return (
-    <StyledButton variant={variant}>
-      {label}
-    </StyledButton>
-  )
-}
+const Button = ({ label = 'Button', variant = 'default' }) => (
+  <StyledButton variant={variant}>{label}</StyledButton>
+);
 
-export default Button
+export default Button;
