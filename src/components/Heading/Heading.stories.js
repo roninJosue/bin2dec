@@ -6,15 +6,18 @@ export default {
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
 };
 
-function Template(args) {
-  return (
-    <div
-      style={{ backgroundColor: '#02044A', height: '10vh', padding: '2rem' }}
-    >
-      <Heading {...args} />
-    </div>
-  );
-}
+const Template = (args) => (
+  <div
+    style={{
+      height: '70vh',
+      backgroundColor: '#02044A',
+      padding: '2em',
+      textAlign: 'center',
+    }}
+  >
+    <Heading {...args} />
+  </div>
+);
 
 export const Heading1 = Template.bind({});
 Heading1.args = {
