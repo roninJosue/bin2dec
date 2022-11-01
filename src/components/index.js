@@ -1,6 +1,6 @@
-import Button from './Button/Button';
-import Heading from './Heading/Heading';
-import Paragraph from './Paragraph/Paragraph';
-import Result from './Result/Result';
+import Button from './ui/Button/Button';
+import Heading from './ui/Heading/Heading';
+import Paragraph from './ui/Paragraph/Paragraph';
+import Result from './ui/Result/Result';
 
 export { Button, Heading, Paragraph, Result };
