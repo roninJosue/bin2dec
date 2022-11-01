@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const StyledInput = styled.input`
-  font-family: 'Outfit', sans-serif;
   padding: 0.375rem 0.75rem;
   border-radius: 5px;
   border: 1px solid #ccc;

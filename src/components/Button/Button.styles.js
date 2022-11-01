@@ -26,7 +26,6 @@ export const StyledButton = styled.button`
   text-align: center;
   cursor: pointer;
   position: relative;
-  font-family: 'Outfit', sans-serif;
 
   &:active {
     border-bottom: 1px solid ${({ variant }) => getColor(variant).borderColor};
