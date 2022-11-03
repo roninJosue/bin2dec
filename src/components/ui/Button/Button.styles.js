@@ -16,7 +16,8 @@ const colors = {
 const getColor = (variant) => colors[variant] || colors.default;
 
 export const StyledButton = styled.button`
-  min-width: 200px;
+  max-width: 300px;
+  width: 100%;
   padding: 0.625rem;
   border-radius: 10px;
   color: ${({ variant }) => getColor(variant).color};
