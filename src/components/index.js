@@ -1,6 +1,4 @@
-import Button from './ui/Button/Button';
-import Heading from './ui/Heading/Heading';
-import Paragraph from './ui/Paragraph/Paragraph';
-import Result from './ui/Result/Result';
+import Description from './Description/Description';
+import FormConverter from './FormConverter/FormConverter';
 
-export { Button, Heading, Paragraph, Result };
+export { Description, FormConverter };
