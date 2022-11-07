@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 
 export const StyledHome = styled.div`
-  width: 100%;
-  height: 100vh;
-  padding: 20em 15em;
+  width: 60%;
+  //height: 80vh;
+  padding: 5em;
   background-color: #02044a;
   display: flex;
   justify-content: space-between;
   align-items: start;
+  border-radius: 15px;
 `;
