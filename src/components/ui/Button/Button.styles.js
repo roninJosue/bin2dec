@@ -27,6 +27,8 @@ export const StyledButton = styled.button`
   text-align: center;
   cursor: pointer;
   position: relative;
+  margin-top: 2em;
+  margin-bottom: 2em;
 
   &:active {
     border-bottom: 1px solid ${({ variant }) => getColor(variant).borderColor};
