@@ -8,7 +8,7 @@ const StyledHeading = styled(HeadingBase)({
   margin: 0,
   fontWeight: 'bold',
   color: '#fff',
-  fontSize: '3.44em',
+  fontSize: '4.44em',
   lineHeight: '1.1em',
 });
 
