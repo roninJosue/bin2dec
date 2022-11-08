@@ -6,8 +6,8 @@ export const StyledForm = styled.form`
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   & * {
     margin-bottom: 1em;
   }
