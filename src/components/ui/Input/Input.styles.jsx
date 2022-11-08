@@ -8,7 +8,7 @@ export const StyledInput = styled.input`
   width: 100%;
   color: #02044a;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  margin-bottom: 1.6em;
+  height: 50px;
 
   &:focus-visible {
     outline: 0;
