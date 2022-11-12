@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import { normalize } from 'styled-normalize';
+import { device } from './utils';
 
 export const GlobalStyle = createGlobalStyle`
   ${normalize}
@@ -17,6 +18,14 @@ export const GlobalStyle = createGlobalStyle`
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #9EC4FB;
+    background-color: #02044a;
+
+    @media screen and ${device.mobileS} {
+      padding: 1em;
+    }
+    
+    @media screen and ${device.tablet} {
+      background-color: #9EC4FB;
+    }
   }
 `;
