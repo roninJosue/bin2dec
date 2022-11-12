@@ -1,10 +1,14 @@
 import styled from 'styled-components';
+import { device } from '../../../styles/utils';
 
 export const StyledParagraph = styled.p`
   color: #fff;
   text-align: justify;
   font-size: 1.2em;
-  width: 70%;
   margin-top: 3em;
-  //margin: 0;
+  width: 100%;
+
+  @media screen and ${device.mobileL} {
+    width: 70%;
+  }
 `;
