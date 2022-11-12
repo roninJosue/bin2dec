@@ -28,13 +28,18 @@ export const StyledHome = styled.section`
 
   @media screen and ${device.tablet} {
     width: 90%;
-    padding: 5em;
+    padding: 5em 3em;
     flex-direction: row;
     border-radius: 15px;
   }
 
   @media screen and ${device.laptop} {
     width: 70%;
+    padding: 8em 5em;
+  }
+
+  @media screen and ${device.laptopL} {
+    width: 50%;
     padding: 8em 5em;
   }
 
