@@ -34,13 +34,13 @@ export const StyledHome = styled.section`
   }
 
   @media screen and ${device.laptop} {
-    width: 70%;
+    width: 90%;
     padding: 8em 5em;
   }
 
   @media screen and ${device.laptopL} {
-    width: 50%;
-    padding: 8em 5em;
+    width: 60%;
+    padding: 6em 3em;
   }
 
   @media screen and ${device.desktop} {
