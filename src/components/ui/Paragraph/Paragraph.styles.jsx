@@ -8,7 +8,11 @@ export const StyledParagraph = styled.p`
   margin-top: 3em;
   width: 100%;
 
-  @media screen and ${device.mobileL} {
-    width: 70%;
+  @media screen and ${device.mobileS} {
+    margin-bottom: 3em;
+  }
+
+  @media screen and ${device.tablet} {
+    width: 90%;
   }
 `;
