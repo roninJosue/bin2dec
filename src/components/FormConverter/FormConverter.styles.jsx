@@ -9,8 +9,9 @@ export const StyledForm = styled.form`
   flex-direction: column;
   width: 100%;
   height: 350px;
-  & * {
-    margin-bottom: 1em;
+
+  @media screen and ${device.mobileL} {
+    width: auto;
   }
 
   @media screen and ${device.tablet} {
