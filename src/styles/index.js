@@ -17,7 +17,8 @@ export const GlobalStyle = createGlobalStyle`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
     background-color: #02044a;
 
     @media screen and ${device.mobileS} {
@@ -25,6 +26,7 @@ export const GlobalStyle = createGlobalStyle`
     }
     
     @media screen and ${device.tablet} {
+      height: 100vh;
       background-color: #9EC4FB;
     }
   }
