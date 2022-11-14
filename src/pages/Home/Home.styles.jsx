@@ -39,7 +39,7 @@ export const StyledHome = styled.section`
   }
 
   @media screen and ${device.laptopL} {
-    width: 60%;
+    width: 50%;
     padding: 6em 3em;
   }
 
