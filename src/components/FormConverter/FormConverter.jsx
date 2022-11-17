@@ -1,7 +1,7 @@
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as Yup from 'yup';
-import { Label, Button, Result, Input } from '../ui';
+import { Label, Button, Result, Input, ErrorText } from '../ui';
 import { StyledForm } from './FormConverter.styles';
 
 const validationSchema = Yup.object().shape({
@@ -25,10 +25,10 @@ const FormConverter = ({ result, handleChange }) => {
       <Label text="Binary number" />
       <Input placeHolder="Binary Number" {...register('binaryNumber')} />
       {errors.binaryNumber?.message && (
-        <span>{errors.binaryNumber?.message}</span>
+        <ErrorText>{errors.binaryNumber?.message}</ErrorText>
       )}
       <Button label="Convert" variant="primary" type="submit" />
-      <Label text="Result" />
+      <Label text="Decimal number" />
       <Result result={result} />
     </StyledForm>
   );
