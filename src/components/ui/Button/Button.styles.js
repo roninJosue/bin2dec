@@ -23,15 +23,16 @@ export const StyledButton = styled.button`
   color: ${({ variant }) => getColor(variant).color};
   background-color: ${({ variant }) => getColor(variant).bgColor};
   border: solid ${({ variant }) => getColor(variant).borderColor};
-  border-width: 1px 1px 5px 1px;
+  border-width: 0 0 5px;
   text-align: center;
   cursor: pointer;
   position: relative;
   margin-top: 2em;
   margin-bottom: 2em;
+  height: 45px;
 
   &:active {
-    border-bottom: 1px solid ${({ variant }) => getColor(variant).borderColor};
+    border-bottom: 0 solid ${({ variant }) => getColor(variant).borderColor};
     top: 3px;
   }
 `;
