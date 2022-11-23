@@ -1,5 +1,7 @@
 import { StyledLabel } from './Label.styles';
 
-const Label = ({ text }) => <StyledLabel>{text}</StyledLabel>;
+const Label = ({ text, htmlFor }) => (
+  <StyledLabel htmlFor={htmlFor}>{text}</StyledLabel>
+);
 
 export default Label;
