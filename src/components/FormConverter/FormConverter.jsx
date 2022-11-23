@@ -22,10 +22,17 @@ const FormConverter = ({ result, handleChange }) => {
   };
   return (
     <StyledForm onSubmit={handleSubmit(onSubmit)}>
-      <Label text="Binary number" />
-      <Input placeHolder="Binary Number" {...register('binaryNumber')} />
+      <Label htmlFor="binaryNumber" text="Binary number" />
+      <Input
+        id="binaryNumber"
+        placeHolder="Binary Number"
+        data-testid="input-converter"
+        {...register('binaryNumber')}
+      />
       {errors.binaryNumber?.message && (
-        <ErrorText>{errors.binaryNumber?.message}</ErrorText>
+        <ErrorText data-testid="error-message">
+          {errors.binaryNumber?.message}
+        </ErrorText>
       )}
       <Button label="Convert" variant="primary" type="submit" />
       <Label text="Decimal number" />
