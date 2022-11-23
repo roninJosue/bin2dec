@@ -36,5 +36,15 @@
   },
   "parserOptions": {
     "ecmaVersion": 2020
-  }
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/*.test.jsx"
+      ],
+      "env": {
+        "jest": true
+      }
+    }
+  ]
 }
