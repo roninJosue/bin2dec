@@ -40,7 +40,8 @@
   "overrides": [
     {
       "files": [
-        "**/*.test.jsx"
+        "**/*.test.jsx",
+        "**/*.test.js"
       ],
       "env": {
         "jest": true
